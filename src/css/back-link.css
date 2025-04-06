@@ -1,3 +1,7 @@
+.back-link-wrapper {
+  text-align: center;
+}
+
 .back-link {
   position: relative;
   display: inline-block;

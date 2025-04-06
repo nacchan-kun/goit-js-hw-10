@@ -1,0 +1,105 @@
+@import 'izitoast/dist/css/iziToast.min.css';
+
+.form {
+  font-family: 'Montserrat', sans-serif;
+
+  background-color: #ffffff;
+  margin-top: 12px;
+  padding: 36px 28px;
+  border: 4px solid #49534f;
+  border-radius: 8px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form > label {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.form > label,
+.form legend {
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.form > label > input {
+  display: block;
+
+  margin-top: 8px;
+  padding-left: 16px;
+
+  border: 1px solid #808080;
+  transition: border-color 250ms ease-in-out;
+  border-radius: 4px;
+  outline: none;
+
+  width: 360px;
+  height: 40px;
+
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.form > label > input:hover {
+  border-color: #000000;
+}
+
+.form > label > input:focus {
+  border-color: #4e75ff;
+}
+
+.form fieldset {
+  display: inline-flex;
+  justify-content: center;
+  gap: 48px;
+  padding: 7px 24px 8px;
+
+  border: 1px solid #808080;
+  transition: border-color 250ms ease-in-out;
+  border-radius: 4px;
+
+  width: 360px;
+
+  margin-bottom: 24px;
+}
+
+.form fieldset:hover {
+  border-color: #000000;
+}
+
+.form fieldset.focused {
+  border-color: #4e75ff;
+}
+
+.form fieldset label {
+  color: #2e2f42;
+}
+
+.form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  min-width: 360px;
+
+  background-color: #4e75ff;
+
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.form button:hover,
+.form button:focus {
+  background-color: #6c8cff;
+}

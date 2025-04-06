@@ -1,0 +1,100 @@
+@import 'flatpickr/dist/flatpickr.min.css';
+@import 'izitoast/dist/css/iziToast.min.css';
+
+.timer-wrapper {
+  font-family: 'Montserrat', sans-serif;
+
+  background-color: #ffffff;
+  margin-top: 12px;
+  padding: 36px 28px;
+  border: 4px solid #49534f;
+  border-radius: 8px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#datetime-picker {
+  display: inline-block;
+  border: 1px solid #808080;
+  transition: border-color 250ms ease-in-out;
+
+  outline: none;
+  padding-left: 8px;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+  margin-right: 8px;
+}
+
+#datetime-picker:hover {
+  border-color: #000000;
+}
+
+#datetime-picker:focus {
+  border-color: #4e75ff;
+  color: #000000;
+}
+
+#datetime-picker:disabled {
+  background-color: #fafafa;
+  color: #808080;
+}
+
+.timer-wrapper > button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-bottom: 32px;
+  width: 75px;
+
+  background-color: #4e75ff;
+
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.timer-wrapper > button:hover,
+.timer-wrapper > button:focus {
+  background-color: #6c8cff;
+}
+
+.timer-wrapper > button:disabled {
+  background-color: #cfcfcf;
+  color: #989898;
+}
+
+.timer {
+  display: flex;
+  gap: 24px;
+
+  text-align: center;
+}
+
+.value {
+  display: block;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  line-height: 1.5;
+  color: #2e2f42;
+}

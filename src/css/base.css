@@ -7,7 +7,7 @@
   font-weight: 400;
 
   color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: rgba(117, 204, 169, 0.87);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -27,6 +27,7 @@ body {
 main {
   flex-grow: 1;
 }
-main:has(.back-link) {
+
+.main-title {
   text-align: center;
 }
