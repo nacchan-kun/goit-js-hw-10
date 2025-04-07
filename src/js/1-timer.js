@@ -8,7 +8,7 @@ import iziToast from 'izitoast';
 // Додатковий імпорт стилів
 // import "izitoast/dist/css/iziToast.min.css";
 
-import errorIcon from '/src/img/izi-toast-svg/error-icon.svg';
+import errorIcon from '/img/izi-toast-svg/error-icon.svg';
 import successIcon from '/img/izi-toast-svg/success-icon.svg';
 
 const timer = {
